@@ -28,14 +28,7 @@ sans aucun framework ni template, conformément aux contraintes du sujet.
 
 ---
 
-## Installation
 
-1. Démarrer  **XAMPP** (Apache + MySQL).
-2. Copier le dossier du projet dans `htdocs/` (XAMPP).
-3. Ouvrir **phpMyAdmin** → onglet *SQL* → importer / exécuter le fichier
-   `database/script.sql`. Cela crée la base `techzone`, les tables et des
-   données de démonstration.
-4. Ouvrir dans le navigateur : `http://localhost/mabrouk/index.php`.
 
 ### Compte de démonstration
 
