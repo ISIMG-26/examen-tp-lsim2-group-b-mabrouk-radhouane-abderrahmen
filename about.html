@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - A propos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+    <div class="container header-inner">
+        <a href="../index.php" class="logo">Tech<span>Zone</span></a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="../index.php">Accueil</a></li>
+                <li><a href="products.php">Produits</a></li>
+                <li><a href="cart.php">Panier <span id="cart-badge" class="badge">0</span></a></li>
+                <li><a href="about.html" class="active">A propos</a></li>
+                <li><a href="auth.php" class="btn">Connexion</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main class="container about-page">
+    <h1>A propos de TechZone</h1>
+
+    <section class="about-block">
+        <h2>Notre mission</h2>
+        <p>TechZone est un mini-projet pedagogique realise dans le cadre du module
+            <strong>Technologies & Programmation Web</strong> (LSIM 2). L'objectif est de mettre
+            en pratique les technologies du web : HTML5 semantique, CSS3, JavaScript natif, AJAX,
+            PHP et MySQL.</p>
+    </section>
+
+    <section class="about-block">
+        <h2>Fonctionnalites</h2>
+        <ul class="feature-list">
+            <li>Catalogue de produits avec recherche et filtrage en AJAX</li>
+            <li>Inscription et connexion securisees (mot de passe hashe)</li>
+            <li>Panier complet (ajouter, modifier la quantite, supprimer)</li>
+            <li>Validation des formulaires cote client et cote serveur</li>
+            <li>Interface responsive et coherente sur toutes les pages</li>
+        </ul>
+    </section>
+
+    <section class="about-block">
+        <h2>Compteur interactif (DOM)</h2>
+        <p>Petit exemple de manipulation du DOM avec gestion d'evenements :</p>
+        <div class="counter-demo">
+            <button id="dec-btn" class="btn-outline">-</button>
+            <span id="counter-value">0</span>
+            <button id="inc-btn" class="btn">+</button>
+            <button id="reset-btn" class="btn-outline">Reinitialiser</button>
+        </div>
+        <p class="hint">Cliquer ajoute / retire un element dans la liste ci-dessous (createElement).</p>
+        <ul id="dynamic-list" class="dynamic-list"></ul>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <p>&copy; 2025-2026 TechZone - Mini-projet LSIM 2</p>
+    </div>
+</footer>
+
+<script src="../js/main.js"></script>
+</body>
+</html>
